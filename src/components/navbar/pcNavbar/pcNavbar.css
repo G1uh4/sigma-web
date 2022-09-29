@@ -1,0 +1,85 @@
+.pcNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.scrolledNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1em;
+    top: 0;
+    position: sticky;
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px); 
+    z-index: 1;
+}
+
+.styleLink{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-size: 1.5vw;
+    padding: 0.5em;
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+/* MOBILE DEVICES */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.pcNavbar{
+    display: none;
+}
+.scrolledNavbar{
+    display: none;
+}
+}
+
+
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .pcNavbar{
+        display: none;
+    }
+    .scrolledNavbar{
+        display: none;
+    }
+}
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .pcNavbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scrolledNavbar{
+        display: flex;
+    }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .pcNavbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scrolledNavbar{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .pcNavbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scrolledNavbar{
+        display: flex;
+    }
+   }

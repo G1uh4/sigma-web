@@ -1,0 +1,140 @@
+/* MOBILE DEVICES */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .homepageSectionOne img{
+        width: 100%;
+    }
+    .homepageSectionTwo p{
+        font-size: 9vw;
+    }
+    .arrowDown{
+        font-size: 20vw;
+    }
+}
+
+
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homepageSectionOne img{
+        width: 80%;
+    }
+    .homepageSectionTwo p{
+        font-size: 8vw;
+    }
+    .arrowDown{
+        font-size: 18vw;
+    }
+}
+
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){ 
+    .homepageSectionOne img{
+        width: 60%;
+    }
+    .homepageSectionTwo p{
+        font-size: 7vw;
+    }
+    .arrowDown{
+        font-size: 16vw;
+    }
+
+    /*HOMEPAGE SECTION THREE*/
+    .homepageSectionThree{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionThree img{
+        width: 40%;
+    }
+    .homepageSectionThree p{
+        font-size: 4vw;
+    }
+
+    /*HOMEPAGE SECTION FOUR*/
+    .homepageSectionFour{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionFour img{
+        width: 40%;
+    }
+    .homepageSectionFour p{
+        font-size: 4vw;
+    }
+}
+  
+
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .homepageSectionOne img{
+        width: 40%;
+    }
+    .homepageSectionTwo p{
+        font-size: 6vw;
+    }
+    .arrowDown{
+        font-size: 14vw;
+    }
+
+    /*HOMEPAGE SECTION THREE*/
+    .homepageSectionThree{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionThree img{
+        width: 30%;
+    }
+    .homepageSectionThree p{
+        font-size: 3.7vw;
+    }
+
+    /*HOMEPAGE SECTION FOUR*/
+    .homepageSectionFour{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionFour img{
+        width: 30%;
+    }
+    .homepageSectionFour p{
+        font-size: 3.7vw;
+    }
+}
+
+
+@media only screen and (min-width: 1201px){
+    .homepageSectionOne img{
+        width: 45%;
+    }
+    .homepageSectionTwo p{
+        font-size: 5vw;
+    }
+    .arrowDown{
+        font-size: 12vw;
+    }
+
+    /*HOMEPAGE SECTION THREE*/
+    .homepageSectionThree{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionThree img{
+        width: 30%;
+    }
+    .homepageSectionThree p{
+        font-size: 3.7vw;
+    }
+
+    /*HOMEPAGE SECTION FOUR*/
+    .homepageSectionFour{
+        display: flex;
+        flex-direction: row;
+    }
+    .homepageSectionFour img{
+        width: 30%;
+    }
+    .homepageSectionFour p{
+        font-size: 3.7vw;
+    }
+}

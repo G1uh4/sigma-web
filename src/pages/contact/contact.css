@@ -1,0 +1,68 @@
+.styleForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSectionOne p{
+    color: greenyellow;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.styleMainInput{
+    width: 40%;
+    padding: 0.5em;
+    background-color: greenyellow;
+    font-family: "vcr";
+}
+
+.styleMsgInput{
+    width: 55%;
+    height: 10em;
+    background-color: greenyellow;
+    font-family: "vcr";
+    padding: 0.5em;
+}
+
+.styleSubmitBtn{
+    background-color: greenyellow;
+    margin: 1em;
+    font-size: 6vw;
+    width: 35%;
+    font-family: "vcr";
+}
+
+
+/*FORM SECTION TWO*/
+.formSectionTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.formSectionTwo p{
+    color: greenyellow;
+    font-size: 9vw;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/6b/c1/32/6bc13211642749ac1f690ffb0ece9d18.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 1em;
+}
+
+.displayMediaSocialIcons{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    align-items: center;
+    color: greenyellow;
+    font-size: 15vw;
+}
+
+.formSectionTwo img{
+    width: 100%;
+}

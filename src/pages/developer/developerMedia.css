@@ -1,0 +1,110 @@
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .developerSectionOne{
+        padding: 1em;
+    }
+    .developerSectionOne img{
+        width: 30%;
+    }
+    .developerSectionOne p{
+        font-size: 8vw;
+    }
+    .displayBio p{
+        font-size: 6vw;
+    }
+    .developerSectionThree h2{
+        font-size: 8vw;
+    }
+    .displayTechIcons{
+        font-size: 18vw;
+    }
+    .displaySocialMedia{
+        font-size: 18vw;
+    }
+    .developerSectionFour h2{
+        font-size: 8vw;
+    }
+}
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .developerSectionOne{
+        padding: 1em;
+    }
+    .developerSectionOne img{
+        width: 25%;
+    }
+    .developerSectionOne p{
+        font-size: 7vw;
+    }
+    .displayBio p{
+        font-size: 5vw;
+    }
+    .developerSectionThree h2{
+        font-size: 7vw;
+    }
+    .displayTechIcons{
+        font-size: 12vw;
+    }
+    .displaySocialMedia{
+        font-size: 12vw;
+    }
+    .developerSectionFour h2{
+        font-size: 7vw;
+    }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .developerSectionOne{
+        padding: 1em;
+    }
+    .developerSectionOne img{
+        width: 20%;
+    }
+    .developerSectionOne p{
+        font-size: 6vw;
+    }
+    .displayBio p{
+        font-size: 4vw;
+    }
+    .developerSectionThree h2{
+        font-size: 6vw;
+    }
+    .displayTechIcons{
+        font-size: 11vw;
+    }
+    .displaySocialMedia{
+        font-size: 11vw;
+    }
+    .developerSectionFour h2{
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .developerSectionOne{
+        padding: 1em;
+    }
+    .developerSectionOne img{
+        width: 15%;
+    }
+    .developerSectionOne p{
+        font-size: 5vw;
+    }
+    .displayBio p{
+        font-size: 3vw;
+    }
+    .developerSectionThree h2{
+        font-size: 5vw;
+    }
+    .displayTechIcons{
+        font-size: 10vw;
+    }
+    .displaySocialMedia{
+        font-size: 10vw;
+    }
+    .developerSectionFour h2{
+        font-size: 5vw;
+    }
+   }

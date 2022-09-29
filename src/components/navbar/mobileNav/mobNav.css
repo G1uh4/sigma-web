@@ -1,0 +1,89 @@
+.hideNavbar{
+    display: none;
+}
+
+.displayLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    top: 0;
+    position: sticky;
+    padding: 2em;
+    z-index: 1;
+}
+
+.styleOpenMenuBackground{
+    background: rgba(17, 255, 27, 0.34);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+}
+
+.openMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1.5em;
+}
+
+.hideOpenMenu{
+    display: none;
+}
+
+.openMenu h3{
+    color: greenyellow;
+}
+
+
+.displayHpHearts img{
+    width: 15%;
+    justify-content:center;
+}
+
+.styleOpenIcon{
+    width: 35%;
+}
+
+.hideOpenIcon{
+    display: none;
+}
+
+.displayLinks img{
+    margin: 2em;
+}
+
+.styleLinks{
+    text-decoration: none;
+    font-size: 7vw;
+    color: black;
+}
+
+.styleCloseIcon{
+    font-size: 10vw;
+    margin-top: 0.2em;
+}
+
+
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .openMenu{
+    display: none;
+  }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .openMenu{
+        display: none;
+      }
+}
+
+@media only screen and (min-width: 1201px){
+    .openMenu{
+        display: none;
+      }
+   }
+

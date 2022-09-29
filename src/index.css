@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "anticlimax";
+  src: local("ANTICLIMAX"),
+  url("../src/fonts/anticlimax/ANTICLIMAX.TTF")
+  ;
+}
+
+@font-face {
+  font-family: "arcade";
+  src: local("ARCADECLASSIC"),
+  url("../src/fonts/arcade/ARCADECLASSIC.TTF")
+  ;
+}
+
+@font-face {
+  font-family: "droid";
+  src: local("DisposableDroidBB"),
+  url("../src/fonts/droid/DisposableDroidBB_ital.ttf")
+  ;
+}
+
+@font-face {
+  font-family: "rainy";
+  src: local("rainyhearts"),
+  url("../src/fonts/rainy/rainyhearts.ttf")
+  ;
+}
+
+@font-face {
+  font-family: "vcr";
+  src: local("VCR_OSD_MONO"),
+  url("../src/fonts/vcr/VCR_OSD_MONO_1.001.ttf")
+  ;
+}
+
+
+
+body {
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: "arcade";
+}
+

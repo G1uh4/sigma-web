@@ -1,0 +1,339 @@
+
+/* HOMEPAGE SECTION TWO*/
+.homepageSectionOne{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;
+}
+
+.homepageSectionOne img{
+    width: 100%;
+}
+
+.homepageSectionOne p{
+    color: greenyellow;
+    font-size: 10vw;
+    text-align: center;
+}
+
+
+
+/* HOMEPAGE SECTION TWO */
+.homepageSectionTwo{
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpaperaccess.com/full/4297137.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.homepageSectionTwo p{
+    text-align: center;
+    font-size: 9vw;
+    padding: 0.5em;
+    font-family: "droid";
+    background: rgba(255, 255, 255, 0.35);
+    padding: 0.5;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+}
+
+.arrowDown{
+    color: greenyellow;
+    font-size: 20vw;
+    text-align: center;
+}
+
+/*HOMEPAGE SECTION THREE*/
+.homepageSectionThree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3em;
+    overflow-x: hidden;
+}
+
+.homepageSectionThree p{
+    color: greenyellow;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 8vw;
+    font-family: "vcr";
+    margin-top: -0.5em;
+}
+
+.homepageSectionThree img{
+    width: 50%;
+}
+
+/* MIDDLE SECTION TWO */
+.homepageSectionMiddleTwo{
+    overflow-x: hidden;
+}
+
+.homepageSectionMiddleTwo{
+    color: greenyellow;
+    text-align: center;
+    font-family: "vcr";
+    font-size: 8vw;
+    margin: 0.2em;
+    z-index: -1;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/858351671568552383/EB5B511C833F84C1E6335CCCA1A6D587F9593D58/");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*HOMEPAGE SECTION FOUR*/
+.homepageSectionFour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3em;
+    overflow-x: hidden;
+}
+
+.homepageSectionFour p{
+    color: greenyellow;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 8vw;
+    font-family: "vcr";
+}
+
+.homepageSectionFour img{
+    width: 50%;
+    margin-top: -2em;
+}
+
+
+
+/* MOBILE DEVICES */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .homepageSectionOne{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -1;
+    }
+    
+    .homepageSectionOne img{
+        width: 100%;
+    }
+    
+    .homepageSectionOne p{
+        color: greenyellow;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    /* HOMEPAGE SECTION TWO*/
+    .homepageSectionTwo{
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepageSectionTwo p{
+        text-align: center;
+        font-size: 9vw;
+        padding: 0.5em;
+        font-family: "droid";
+    }
+    
+    .arrowDown{
+        color: greenyellow;
+        font-size: 20vw;
+        text-align: center;
+    }
+
+}
+
+
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homepageSectionOne{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -1;
+    }
+    
+    .homepageSectionOne img{
+        width: 80%;
+    }
+    
+    .homepageSectionOne p{
+        color: greenyellow;
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    /* HOMEPAGE SECTION TWO*/
+    .homepageSectionTwo{
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepageSectionTwo p{
+        text-align: center;
+        font-size: 7vw;
+        padding: 0.5em;
+        font-family: "droid";
+    }
+    
+    .arrowDown{
+        color: greenyellow;
+        font-size: 18vw;
+        text-align: center;
+    }
+}
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homepageSectionOne{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -1;
+    }
+    
+    .homepageSectionOne img{
+        width: 50%;
+    }
+    
+    .homepageSectionOne p{
+        color: greenyellow;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    /* HOMEPAGE SECTION TWO*/
+    .homepageSectionTwo{
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepageSectionTwo p{
+        text-align: center;
+        font-size: 5vw;
+        padding: 0.5em;
+        font-family: "droid";
+    }
+    
+    .arrowDown{
+        color: greenyellow;
+        font-size: 16vw;
+        text-align: center;
+    }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .homepageSectionOne{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -1;
+    }
+    
+    .homepageSectionOne img{
+        width: 40%;
+    }
+    
+    .homepageSectionOne p{
+        color: greenyellow;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    /* HOMEPAGE SECTION TWO*/
+    .homepageSectionTwo{
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepageSectionTwo p{
+        text-align: center;
+        font-size: 3vw;
+        padding: 0.5em;
+        font-family: "droid";
+    }
+    
+    .arrowDown{
+        color: greenyellow;
+        font-size: 14vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .homepageSectionOne{
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        z-index: -1;
+    }
+    
+    .homepageSectionOne img{
+        width: 30%;
+    }
+    
+    .homepageSectionOne p{
+        color: greenyellow;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    /* HOMEPAGE SECTION TWO*/
+    .homepageSectionTwo{
+        color: greenyellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepageSectionTwo p{
+        text-align: center;
+        font-size: 3vw;
+        padding: 0.5em;
+        font-family: "droid";
+    }
+    
+    .arrowDown{
+        color: greenyellow;
+        font-size: 10vw;
+        text-align: center;
+    }
+}

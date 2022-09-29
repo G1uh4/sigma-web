@@ -1,0 +1,128 @@
+.homepage{
+    position: fixed;
+    top: 45%;
+    left: 50%;
+     /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.homepageSectionOne h2{
+    font-family: "rainy";
+    color: greenyellow;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.displayMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+
+.menuOption{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.menuIcon {
+    width: 15%;
+    rotate: 90deg;
+    display: none;
+}
+
+.showMenuIcon{
+    width: 15%;
+    rotate: 90deg;
+}
+
+.styleMenuLink{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 8vw;
+}
+
+
+
+
+/* MOBILE DEVICES */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .homepageSectionOne h2{
+        font-family: "rainy";
+        color: greenyellow;
+        text-align: center;
+        padding: 0.5em;
+        font-size: 9vw;
+    }
+    .styleMenuLink{
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 8vw;
+    }
+
+}
+
+
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .homepageSectionOne h2{
+        font-family: "rainy";
+        color: greenyellow;
+        text-align: center;
+        padding: 0.5em;
+        font-size: 8vw;
+    }
+    .styleMenuLink{
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 7vw;
+    }
+    
+}
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homepageSectionOne h2{
+        font-family: "rainy";
+        color: greenyellow;
+        text-align: center;
+        font-size: 7vw;
+    }
+    .styleMenuLink{
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 6vw;
+    }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .homepageSectionOne h2{
+        font-family: "rainy";
+        color: greenyellow;
+        text-align: center;
+        font-size: 6vw;
+    }
+    .styleMenuLink{
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .homepageSectionOne h2{
+        font-family: "rainy";
+        color: greenyellow;
+        text-align: center;
+        font-size: 5vw;
+    }
+    .styleMenuLink{
+        text-decoration: none;
+        color: greenyellow;
+        font-size: 5vw;
+    }
+   }

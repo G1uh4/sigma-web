@@ -1,0 +1,86 @@
+
+/*DEVELOPER SECTION ONE*/
+.developerSectionOne{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.developerSectionOne img{
+    width: 35%;
+    opacity: 0.8;
+}
+
+.developerSectionOne p{
+    color: greenyellow;
+    font-size: 9vw;
+    font-family: "vcr";
+}
+
+/*DEVELOPER SECTION TWO*/
+.displayBio{
+    color: greenyellow;
+    font-family: "vcr";
+}
+
+.displayBio p{
+    text-align: center;
+    padding: 0.5em;
+    font-size: 7vw;
+}
+
+/*DEVELOPER SECTION THREE*/
+
+.displayH2Background{
+    background-image: url("https://wallpaperaccess.com/full/722765.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2em;
+}
+
+
+.developerSectionThree h2{
+    color: greenyellow;
+    text-align: center;
+    font-size: 9vw;
+    font-family: "vcr";
+    padding: 0.5em;
+    background: rgba(5, 5, 5, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+}
+
+.displayTechIcons{
+    color: greenyellow;
+    font-size: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+/*DEVELOPER SECTION FOUR*/
+.developerSectionFour h2{
+    color: greenyellow;
+    text-align: center;
+    font-size: 9vw;
+    font-family: "vcr";
+    padding: 0.5em;
+    background: rgba(5, 5, 5, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+}
+
+.displaySocialMedia{
+    color: greenyellow;
+    font-size: 15vw;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+

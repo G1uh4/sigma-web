@@ -1,0 +1,57 @@
+.noProjects{
+    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.noProjects p{
+    font-size: 10vw;
+    text-align: center;
+    padding: 1em;
+    font-family: "vcr";
+}
+
+.noProjects img{
+    width: 70%;
+}
+
+/* iPADS, TABLETS */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .noProjects p{
+        font-size: 9vw;
+    }
+    .noProjects img{
+        width: 50%;
+    }
+}
+
+/* SMALL SCREENS, LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .noProjects p{
+        font-size: 4vw;
+    }
+    .noProjects img{
+        width: 40%;
+    }
+}
+
+/* DESKTOPS, LARGE SCREENS */
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .noProjects p{
+        font-size: 3vw;
+    }
+    .noProjects img{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1201px){
+    .noProjects p{
+        font-size: 3vw;
+    }
+    .noProjects img{
+        width: 20%;
+    }
+   }
